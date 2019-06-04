@@ -1,0 +1,41 @@
+# These are the customized files I use when starting a new project. 
+# To be used with the devise.views.nl zipfile in this repo
+
+# new file: views.nl.yml
+nl:
+  devise:
+    # Use the t("devise.xxx") syntax to reach the keys that don't have a view-scope:
+    back: Terug
+    log_in: Inloggen
+    log_out: Uitloggen
+    minimum_password_length: "minimaal %{length} tekens"
+    reset_password: Wachtwoord instellen
+    sign_up: Een account aanmaken
+    # Use the t(".xxx") syntax for keys that do have a view scope:
+    confirmations:
+      new:
+        resend_confirmation_mail: Bevestigingsmail opnieuw verzenden
+    passwords:
+      edit:
+        new_password: Nieuw wachtwoord
+      new:
+        submit: Versturen
+    registrations:
+      edit:
+        cancel_account: Account verwijderen
+        current_to_confirm: Vul je wachtwoord in om de wijzigingen op te slaan
+        leave_unchanged_blank: Alleen invullen als je je wachtwoord wilt wijzigen
+        pending_reconfirmation: "Bevestig eerst je nieuwe emailadres: %{new_email}."
+        submit: Opslaan
+        unhappy: Niet tevreden?
+      new:
+        sign_up_button: Account aanmaken
+    sessions:
+      new:
+        log_in_title: Log in
+    shared:
+      links:
+        forgot_password: Wachtwoord vergeten?
+        log_in_with_provider: Log in met %{provider}
+        new_confirmation_mail: Nieuwe bevestigingsmail aanvragen
+        new_unlock_mail: Nieuwe deblokkeringsmail aanvragen
