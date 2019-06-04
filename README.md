@@ -1,6 +1,5 @@
-# Devise-i18n-checklist 
-
-Proper translations for user centered and consistent phrasing (Blogpost Draft in the link)
+ # The Ultimate Checklist to Properly Internationalise Devise, including a Dutch treat 🇳🇱
+ Blogpost: appsignal blog <add link>
 
 ## In this repo:
 
