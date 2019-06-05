@@ -1,0 +1,34 @@
+ errors:
+   format: "%{message}"
+    messages:
+      accepted: Accepteer eerst %{attribute}
+      blank: Vul een %{attribute} in
+      confirmation: De wachtwoorden komen niet overeen.
+      empty: Vul een %{attribute} in
+      equal_to: Dit moet %{count} zijn
+      even: "%{attribute} moet een even getal zijn."
+      exclusion: Dit is geen geldige waarde voor %{attribute}. Kies iets anders.
+      greater_than: "%{attribute} moet groter zijn dan %{count}."
+      greater_than_or_equal_to: "%{attribute} mag niet minder zijn dan %{count}."
+      inclusion: "%{attribute} is hier niet geldig. Kies iets anders."
+      invalid: "%{attribute} is niet geldig. Kies iets anders."
+      less_than: "%{attribute} moet minder zijn dan %{count}."
+      less_than_or_equal_to: "%{attribute} mag niet minder zijn dan %{count}."
+      model_invalid: 'Validatie mislukt: %{errors}'
+      not_a_number: Vul een getal in voor %{attribute}
+      not_an_integer: "%{attribute} moet een rond getal zijn."
+      odd: "%{attribute} moet een oneven getal zijn."
+      other_than: "%{attribute} mag niet hetzelfde zijn als %{count}."
+      present: "%{attrubute} moet leeg zijn."
+      required: "%{attribute} is hier verplicht"
+      # don't share if an email address has been taken or is just invalid
+      taken: "%{attribute) is ongeldig"
+      too_long:
+        one: "%{attribute} mag niet meer zijn dan 1 teken."
+        other: "%{attribute} is te lang. (Je kunt maximaal %{count} tekens gebruiken.)
+      too_short:
+        one: Gebruik minimaal %{count} teken
+        other: Kies een %{attribute} van minimaal %{count} tekens.
+      wrong_length:
+        one: Gebruik niet meer dan 1 teken.
+        other: Kies een langer %{attribute} (minimaal %{count} tekens).
