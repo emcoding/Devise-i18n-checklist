@@ -22,7 +22,7 @@
      present: "%{attribute} moet leeg zijn."
      required: "%{attribute} is hier verplicht."
      # don't reveal whether an email address has been taken or is invalid
-     taken: "%{attribute) is ongeldig."
+     taken: "%{attribute} is ongeldig."
      too_long:
        one: "%{attribute} mag niet meer zijn dan 1 teken."
        other: "%{attribute} is te lang. (Je kunt maximaal %{count} tekens gebruiken.)"
