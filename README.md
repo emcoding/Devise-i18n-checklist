@@ -1,5 +1,5 @@
- # The Ultimate Checklist to Properly Internationalise Devise, including a Dutch treat 🇳🇱
- Blogpost: appsignal blog <add link>
+# The Ultimate Checklist to Properly Internationalise Devise, including a Dutch treat 🇳🇱
+See my blogpost for explanations: https://blog.appsignal.com/2019/06/11/devise-ultimate-internationalisation-checklist.html 
 
 ## In this repo:
 
