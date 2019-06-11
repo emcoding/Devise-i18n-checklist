@@ -1,0 +1,16 @@
+nl:
+  activerecord:
+    attributes:
+      user:
+        current_password: Huidig wachtwoord
+        email: e-mailadres
+        password: wachtwoord
+        password_confirmation: Herhaal het wachtwoord
+        remember_me: Ingelogd blijven?
+    models:
+      user: Gebruiker
+  helpers:
+    label:
+      user:
+        email: Emailadres
+        password: Wachtwoord
