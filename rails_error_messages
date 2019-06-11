@@ -19,7 +19,7 @@
      not_an_integer: "%{attribute} moet een rond getal zijn."
      odd: "%{attribute} moet een oneven getal zijn."
      other_than: "%{attribute} mag niet hetzelfde zijn als %{count}."
-     present: "%{attrubute} moet leeg zijn."
+     present: "%{attribute} moet leeg zijn."
      required: "%{attribute} is hier verplicht"
      # don't reveal whether an email address has been taken or is invalid
      taken: "%{attribute) is ongeldig"
